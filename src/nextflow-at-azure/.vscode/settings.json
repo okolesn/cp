@@ -1,0 +1,9 @@
+{
+    "search.exclude": {
+        ".history/*": true
+    },
+    "files.exclude": {
+        ".history/*": true
+    },
+    "workbench.tree.indent": 16
+}
