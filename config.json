@@ -1,0 +1,27 @@
+[ {
+  "name" : "default",
+  "description" : "Default configuration",
+  "configuration" : {
+    "nonPause" : false,
+    "cloudRegionId" : 1,
+    "podAssignPolicy" : {
+      "selector" : {
+        "label" : "cloud-pipeline/scp-executor",
+        "value" : "true"
+      },
+      "tolerances" : [ {
+        "label" : "node-role.kubernetes.io/master"
+      } ],
+      "skipContainerRequests" : true
+    },
+    "kubeServiceAccount" : "default",
+    "instance_size" : "Standard_A2m_v2",
+    "instance_disk" : "20",
+    "docker_image" : "docker.azure.cloud-pipeline.com:443/pipe-admin/nextflow:latest",
+    "timeout" : 0,
+    "cmd_template" : "sleep infinity",
+    "language" : "other",
+    "is_spot" : false
+  },
+  "default" : true
+} ]
