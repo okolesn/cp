@@ -17,7 +17,7 @@
     "kubeServiceAccount" : "default",
     "instance_size" : "Standard_A2m_v2",
     "instance_disk" : "20",
-    "docker_image" : "docker.azure.cloud-pipeline.com:443/pipe-admin/nextflow:latest",
+    "docker_image" : "cloudpipeline.azurecr.io/pipe-admin/nextflow:latest",
     "timeout" : 0,
     "cmd_template" : "sleep infinity",
     "language" : "other",
