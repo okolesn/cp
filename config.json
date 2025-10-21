@@ -14,7 +14,7 @@
       } ],
       "skipContainerRequests" : true
     },
-    "kubeServiceAccount" : "default",
+    "kubeServiceAccount" : "cp-service-account",
     "instance_size" : "Standard_A2m_v2",
     "instance_disk" : "20",
     "docker_image" : "cloudpipeline.azurecr.io/pipe-admin/nextflow:latest",
