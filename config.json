@@ -15,6 +15,7 @@
       "skipContainerRequests" : true
     },
     "kubeServiceAccount" : "cp-service-account",
+    "kubeLabels": {"azure.workload.identity/use" : "true"},
     "instance_size" : "Standard_A2m_v2",
     "instance_disk" : "20",
     "docker_image" : "cloudpipeline.azurecr.io/pipe-admin/nextflow:latest",
