@@ -3,7 +3,7 @@
   "description" : "Default configuration",
   "configuration" : {
     "nonPause" : false,
-    "cloudRegionId" : 1,
+    "cloudRegionId" : 4,
     "podAssignPolicy" : {
       "selector" : {
         "label" : "cloud-pipeline/scp-executor",
