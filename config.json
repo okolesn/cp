@@ -27,7 +27,7 @@
         "value" : "test",
         "type": "string"
       }
-    }
+    },
     "is_spot" : false
     
   },  
