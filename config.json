@@ -22,6 +22,12 @@
     "timeout" : 0,
     "cmd_template" : "sleep infinity",
     "language" : "other",
+    "parameters": {
+      "param1": {
+        "value" : "test",
+        "type": "string"
+      }
+    }
     "is_spot" : false
     
   },  
