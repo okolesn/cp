@@ -22,7 +22,27 @@
     "timeout" : 0,
     "cmd_template" : "sleep infinity",
     "language" : "other",
-    "is_spot" : false
-  },
+    "is_spot" : false,
+    "parameters" : {
+      "MANAGED_IDENTITY_CLIENT_ID" : {
+        "value" : "4432ed14-8b26-492c-a6c7-41f699d778d2",
+        "type" : "string",
+        "required" : true,
+        "no_override" : false
+      },
+      "AZURE_STORAGE_ACCOUNT_NAME" : {
+        "value" : "cloudpipelineeastus",
+        "type" : "string",
+        "required" : true,
+        "no_override" : false
+      },
+      "AZURE_BATCH_ACCOUNT_NAME" : {
+        "value" : "nextflow",
+        "type" : "string",
+        "required" : true,
+        "no_override" : false
+      }
+    },
+  },  
   "default" : true
 } ]
