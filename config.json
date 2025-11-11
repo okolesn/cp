@@ -20,10 +20,16 @@
     "instance_disk" : "20",
     "docker_image" : "cloudpipeline.azurecr.io/pipe-admin/nextflow:latest",
     "timeout" : 0,
-    "cmd_template" : "sleep infinity",
     "language" : "other",
-    "is_spot" : false
-    
+    "is_spot" : false,
+    "cmd_template" : "nextflow run $SCRIPTS_DIR/src/[main_file]",
+    "parameters": {
+      "CP_CAP_CUSTOM_NextflowEventHandler" : {
+        "value" : "true",
+        "type" : "boolean",
+        "required" : false
+      }
+    }   
   },  
   "default" : true
 } ]
