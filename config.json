@@ -22,7 +22,7 @@
     "timeout" : 0,
     "language" : "other",
     "is_spot" : false,
-    "cmd_template" : "nextflow run $SCRIPTS_DIR/src/[main_file]",
+    "cmd_template" : "export CP_NXF_UUID=$(uuidgen); unset AZURE_CLIENT_ID ; unset AZURE_TENANT_ID; /usr/bin/nextflow run $SCRIPTS_DIR/src/nextflow-at-azure/src/main.nf -w az://nextflow/work; sleep 1000d",
     "parameters": {
       "CP_CAP_CUSTOM_nextflow" : {
         "value" : "true",
