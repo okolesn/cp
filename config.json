@@ -9,7 +9,7 @@
         "label" : "cloud-pipeline/worker",
         "value" : "true"
       },      
-      "skipContainerRequests" : true
+      "skipContainerRequests" : "false"
     },
     "kubeServiceAccount" : "cp-service-account",
     "kubeLabels": {"azure.workload.identity/use" : "true"},
