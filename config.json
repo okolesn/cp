@@ -6,7 +6,7 @@
     "cloudRegionId" : 4,
     "podAssignPolicy" : {
       "selector" : {
-        "label" : "cloud-pipeline/scp-executor",
+        "label" : "cloud-pipeline/worker",
         "value" : "true"
       },
       "tolerances" : [ {
