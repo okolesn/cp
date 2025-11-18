@@ -8,10 +8,7 @@
       "selector" : {
         "label" : "cloud-pipeline/worker",
         "value" : "true"
-      },
-      "tolerances" : [ {
-        "label" : "node-role.kubernetes.io/master"
-      } ],
+      },      
       "skipContainerRequests" : true
     },
     "kubeServiceAccount" : "cp-service-account",
