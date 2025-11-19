@@ -6,7 +6,7 @@
     "cloudRegionId" : 4,
     "podAssignPolicy" : {
       "selector" : {
-        "label" : "cloud-pipeline/worker",
+        "label" : "cloud-pipeline/d4sv3",
         "value" : "true"
       },      
       "skipContainerRequests" : "false"
